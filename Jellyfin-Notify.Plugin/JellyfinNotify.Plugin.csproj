@@ -36,7 +36,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy /Y &quot;$(TargetDir)$(ProjectName).dll&quot; &quot;C:\Users\Jared\AppData\Local\jellyfin\plugins\Jellyfin-Notify\$(ProjectName).dll&quot;&#xD;&#xA;copy /Y &quot;$(TargetDir)$(ProjectName).pdb&quot; &quot;C:\Users\Jared\Documents\JellyfinPlugin\Jellyfin\Jellyfin.Server\bin\Debug\net8.0\$(ProjectName).pdb&quot;" />
+    <Exec Command="copy /Y &quot;$(TargetDir)$(ProjectName).dll&quot; &quot;%localappdata%\jellyfin\plugins\Jellyfin-Notify\$(ProjectName).dll&quot;&#xD;&#xA;copy /Y &quot;$(TargetDir)$(ProjectName).pdb&quot; &quot;..\..\Jellyfin\Jellyfin.Server\bin\Debug\net8.0\$(ProjectName).pdb&quot;" />
   </Target>
 
 </Project>
