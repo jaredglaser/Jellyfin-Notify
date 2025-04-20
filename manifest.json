@@ -1,6 +1,6 @@
 [
     {
-        "category": "Metadata",
+        "category": "Notifications",
         "description": "A work in progress Jellyfin plugin. The ultimate goal is for this to be easily extensible to support a wide range of notification platforms and purposes.",
         "guid": "64e005e9-a153-46a4-850d-998736ad4359",
         "name": "Jellyfin-Notify",
