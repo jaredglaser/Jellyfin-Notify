@@ -8,10 +8,10 @@
         "owner": "jaredglaser",
         "versions": [
             {
-                "checksum": "4869CB24504051F937339D2764F655C5",
+                "checksum": "CDB0B5E17502A520F6E44063AF07275E",
                 "changelog": "initial alpha release",
                 "targetAbi": "10.10.0.0",
-                "sourceUrl": "https://github.com/jaredglaser/Jellyfin-Notify/archive/refs/tags/0.1.0.0.zip",
+                "sourceUrl": "https://github.com/jaredglaser/Jellyfin-Notify/releases/download/0.1.0.0/JellyfinNotify.Plugin.dll",
                 "timestamp": "2025-04-20 15:28:00",
                 "version": "0.1.0.0"
             }
